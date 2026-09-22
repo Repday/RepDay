@@ -96,7 +96,7 @@ html,body{max-width:100%; overflow-x:hidden; overflow-x:clip}
     -2px  2px 0 var(--marka-kontur), 2px  2px 0 var(--marka-kontur),
      0   -2px 0 var(--marka-kontur), 0    2px 0 var(--marka-kontur),
     -2px  0   0 var(--marka-kontur), 2px  0   0 var(--marka-kontur)}
-.marka-by{font-size:11px; letter-spacing:.16em; color:var(--soluk); margin-top:2px; margin-bottom:7px}
+.marka-by{font-size:11px; letter-spacing:.16em; color:var(--soluk); margin-top:-1px; margin-bottom:8px}
 .marka-alt{font-size:13px; color:var(--soluk); letter-spacing:.03em}
 
 .giris-blok{margin-bottom:18px}
