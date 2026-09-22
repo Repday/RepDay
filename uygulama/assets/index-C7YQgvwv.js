@@ -181,9 +181,9 @@ html,body{max-width:100%; overflow-x:hidden; overflow-x:clip}
 .duet-rozet{display:inline-block; margin-left:6px; padding:1px 7px; border-radius:999px;
   background:var(--bordo-sis); color:var(--bordo); font-size:11px; font-weight:700; vertical-align:middle}
 .elle-sayi{margin-top:12px}
-.gun-secim{display:grid; grid-template-columns:repeat(7,1fr); gap:5px; margin-bottom:2px}
+.gun-secim{display:grid; grid-template-columns:repeat(7,1fr); gap:5px; margin-bottom:14px}
 .gun-secim .cip.gun{min-width:0; width:100%; padding:0 2px; font-size:14px; border-radius:14px}
-.gun-saat-liste{display:flex; flex-direction:column; gap:8px; margin:10px 0 4px}
+.gun-saat-liste{display:flex; flex-direction:column; gap:9px; margin:14px 0 4px}
 .gun-saat{display:flex; align-items:center; gap:10px}
 .gun-saat-ad{flex:1; font-size:15px; color:var(--metin)}
 .lk .gun-saat .giris{width:132px; min-width:0; flex:none}
