@@ -464,8 +464,6 @@ button{-webkit-tap-highlight-color:transparent; user-select:none; -webkit-user-s
 .satir.gecmis-kutu{width:100%; margin-top:12px; text-align:left; font:inherit; cursor:pointer; position:relative;
   background:var(--bordo-yuzey); color:var(--uzeri); border:0; padding:15px 14px;
   box-shadow:0 6px 18px -10px rgba(60,10,20,.55)}
-.satir.gecmis-kutu::before{content:""; position:absolute; inset:5px; border:1.5px dashed rgba(255,241,230,.55);
-  border-radius:11px; pointer-events:none}
 .satir.gecmis-kutu .isim{color:var(--uzeri); font-weight:600}
 .satir.gecmis-kutu .alt{color:var(--uzeri); opacity:.8}
 .gecmis-ikon{width:40px; height:40px; flex:none; display:grid; place-items:center; border-radius:12px;
