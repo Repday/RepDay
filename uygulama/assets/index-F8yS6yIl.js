@@ -462,13 +462,12 @@ button{-webkit-tap-highlight-color:transparent; user-select:none; -webkit-user-s
 .ay-adi.kucuk-ay{font-size:24px; margin:0}
 .gecmis-paket{margin-top:14px}
 .satir.gecmis-kutu{width:100%; margin-top:12px; text-align:left; font:inherit; cursor:pointer; position:relative;
-  background:var(--bordo-yuzey); color:var(--uzeri); border:0; padding:15px 14px;
-  box-shadow:0 6px 18px -10px rgba(60,10,20,.55)}
+  background:var(--bordo-yuzey); color:var(--uzeri); border:0; outline:0; box-shadow:none; padding:15px 14px}
 .satir.gecmis-kutu .isim{color:var(--uzeri); font-weight:600}
 .satir.gecmis-kutu .alt{color:var(--uzeri); opacity:.8}
 .gecmis-ikon{width:40px; height:40px; flex:none; display:grid; place-items:center; border-radius:12px;
-  background:rgba(255,241,230,.14); color:var(--uzeri); border:1.5px solid rgba(255,241,230,.6)}
-.satir.gecmis-kutu .onay{font-size:22px; color:var(--bordo-yuzey); background:var(--uzeri); border-color:var(--uzeri)}
+  background:rgba(255,241,230,.16); color:var(--uzeri); border:0}
+.satir.gecmis-kutu .onay{font-size:22px; color:var(--bordo-yuzey); background:var(--uzeri); border:0; box-shadow:none}
 .satir.gecmis-kutu:active{transform:scale(.98)}
 .ileri-kutu.paketsiz{margin-top:12px}
 .ileri-kutu.paketsiz .btn{align-self:flex-start; margin-top:8px}
