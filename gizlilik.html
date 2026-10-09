@@ -1,88 +1,180 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>RepDay · Gizlilik Politikası</title>
 <style>
-  :root{--bordo:#6B1F2E;--krem:#F7EFE1;--kart:#FFFAF0;--metin:#3A2A22;--soluk:#7C6A5F;--cizgi:#E4D8C6}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--krem);color:var(--metin);font:400 16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif;padding:32px 20px 80px}
+  :root{--bordo:#6B1F2E;--krem:#F2E7D5;--kart:#FFFFFF;--metin:#3A2A22;--soluk:#6F6155;--cizgi:#D9CBB4}
+  @media (prefers-color-scheme: dark){:root{--bordo:#F2B8A8;--krem:#171311;--kart:#221C19;--metin:#F0E8E0;--soluk:#9A8B82;--cizgi:#342A26}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--krem);color:var(--metin);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:32px 16px 64px}
   main{max-width:720px;margin:0 auto}
-  h1{font-size:30px;line-height:1.2;color:var(--bordo);margin-bottom:8px}
-  h2{font-size:20px;color:var(--bordo);margin:32px 0 10px}
-  p,li{margin-bottom:12px;max-width:62ch}
-  ul{padding-left:20px}
-  .tarih{color:var(--soluk);font-size:14px;margin-bottom:28px}
-  .kutu{background:var(--kart);border-left:5px solid var(--bordo);padding:16px 18px;margin:20px 0}
+  h1{color:var(--bordo);font-size:30px;line-height:1.2;margin:0 0 6px}
+  h2{color:var(--bordo);font-size:20px;margin:34px 0 8px}
+  h3{font-size:16px;margin:20px 0 4px}
+  p,li{margin:0 0 10px}
+  ul{padding-left:20px;margin:0 0 10px}
+  .tarih{color:var(--soluk);font-size:14px;margin-bottom:24px}
+  .kutu{background:var(--kart);border:1px solid var(--cizgi);border-radius:16px;padding:16px 18px;margin:16px 0}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0 12px}
+  th,td{text-align:left;vertical-align:top;padding:9px 8px;border-bottom:1px solid var(--cizgi)}
+  th{color:var(--soluk);font-weight:600;font-size:13px}
   a{color:var(--bordo)}
-  footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--cizgi);color:var(--soluk);font-size:14px}
+  hr{border:0;border-top:1px solid var(--cizgi);margin:40px 0}
 </style>
 </head>
 <body>
 <main>
-  <h1>Gizlilik Politikası</h1>
-  <p class="tarih">RepDay · Son güncelleme: 16 Eylül 2026</p>
 
-  <div class="kutu">
-    <p><strong>Kısaca:</strong> RepDay verilerinizi kendi telefonunuzda saklar. Reklam göstermez, analiz aracı kullanmaz, hiçbir veriyi üçüncü taraflara satmaz. Yalnızca salon paylaşımını açarsanız sınırlı bir bilgi sunucuya gider.</p>
-  </div>
+<h1>RepDay Gizlilik Politikası</h1>
+<p class="tarih">Son güncelleme: 8 Ekim 2026</p>
 
-  <h2>1. Veri sorumlusu</h2>
-  <p>RepDay uygulaması Gökhan Likos tarafından geliştirilmiştir. Gizlilikle ilgili sorularınız için: <a href="mailto:gokhanlikos3435@gmail.com">gokhanlikos3435@gmail.com</a></p>
+<div class="kutu">
+<b>Kısaca:</b> RepDay'e girdiğin öğrenci bilgileri (ad, telefon, ölçüler, dersler,
+paketler, ödemeler) <b>sadece senin telefonunda</b> durur, bize gönderilmez.
+Hesap açman gerekmez. Reklam, analiz ya da takip aracı yoktur. Sunucuya veri
+yalnızca isteğe bağlı <b>Salon</b> özelliğini kullanırsan ve <b>lisans kodu</b>
+girersen gider; o zaman da öğrencilerinle ilgili hiçbir bilgi gitmez.
+</div>
 
-  <h2>2. Telefonunuzda saklanan veriler</h2>
-  <p>Uygulamaya girdiğiniz aşağıdaki bilgiler yalnızca cihazınızda tutulur ve sunucuya gönderilmez:</p>
-  <ul>
-    <li>Öğrenci adı, telefon numarası, doğum tarihi</li>
-    <li>Boy, kilo, cinsiyet ve hedef bilgisi</li>
-    <li>Ders kayıtları, antrenman türleri ve ders notları</li>
-    <li>Ders paketleri, ücretler ve ödeme durumu</li>
-    <li>Uygulama ayarlarınız ve varsa PIN kodunuz</li>
-  </ul>
-  <p>Bu veriler cihazın kendi güvenli depolama alanında tutulur. Uygulamayı silerseniz bu veriler de silinir.</p>
+<h2>1. Biz kimiz</h2>
+<p>RepDay ("uygulama"), Likos adıyla yayınlanan, Gökhan Umut Likoğlu tarafından
+geliştirilen bir antrenör defteri uygulamasıdır. Bu politika, uygulamayı
+kullanırken hangi bilgilerin nerede tutulduğunu açıklar.</p>
 
-  <h2>3. Salon paylaşımı açıksa</h2>
-  <p>Salon özelliğini kullanmayı seçerseniz, ortak takvimin çalışabilmesi için yalnızca şu bilgiler bir sunucuda saklanır:</p>
-  <ul>
-    <li>Salon adı ve katılım kodu</li>
-    <li>Takvimde görünmesi için yazdığınız antrenör adınız ve seçtiğiniz renk</li>
-    <li>Derslerinizin tarihi ve saati</li>
-  </ul>
-  <p><strong>Öğrencilerinize ait hiçbir bilgi sunucuya gönderilmez.</strong> Ortak takvimde diğer antrenörler yalnızca sizin hangi saatlerinizin dolu olduğunu görür; kiminle çalıştığınızı göremez.</p>
-  <p>Bu veriler Supabase Inc. altyapısında, Avrupa Birliği (Frankfurt) sunucularında barındırılır. Salondan ayrıldığınızda üyelik kaydınız ve ders saatleriniz silinir. Doksan günden eski ders kayıtları otomatik olarak silinir.</p>
+<h2>2. Telefonunda kalan bilgiler</h2>
+<p>Uygulamaya girdiğin şu bilgiler yalnızca cihazının kendi deposunda saklanır
+ve bize, başka bir sunucuya ya da üçüncü kişilere gönderilmez:</p>
+<ul>
+  <li>Öğrenci adı, telefon numarası, doğum tarihi, cinsiyet, boy, kilo, hedef ve notlar</li>
+  <li>Ders planları, ders kayıtları, iptaller</li>
+  <li>Satılan paketler, ücretler ve ödeme durumları</li>
+  <li>Uygulama ayarların (tema, dil, PIN gibi)</li>
+</ul>
+<p>Bu bilgiler Android'in bulut yedeğine ve telefondan telefona otomatik
+aktarıma da dahil edilmez. Uygulamayı silersen bu bilgiler de telefondan silinir.</p>
 
-  <h2>4. Kimlik doğrulama</h2>
-  <p>Salon özelliği için hesap açmanız, e-posta veya telefon numarası vermeniz gerekmez. Cihazınız isimsiz bir kimlik alır ve yalnızca bu kimlikle bağlanır.</p>
+<h2>3. Sunucuya giden bilgiler (sadece belirli özelliklerde)</h2>
 
-  <h2>5. Bildirimler</h2>
-  <p>Ders hatırlatmaları tamamen cihazınızda oluşturulur ve zamanlanır. Bildirim içerikleri hiçbir sunucuya gönderilmez.</p>
+<h3>Salon (ortak takvim) özelliği — isteğe bağlı</h3>
+<p>Aynı salondaki antrenörlerin birbirinin dolu saatlerini görebilmesi için,
+bu özelliği <b>sen açarsan</b> şu bilgiler sunucumuza gönderilir:</p>
+<table>
+  <tr><th>Bilgi</th><th>Neden</th></tr>
+  <tr><td>Rastgele üretilmiş anonim kullanıcı numarası (e-posta, telefon ya da isim içermez)</td><td>Hangi kayıtların sana ait olduğunu ayırmak için</td></tr>
+  <tr><td>Takvimde görünmesi için yazdığın antrenör adı ve seçtiğin renk</td><td>Diğer antrenörlerin kimin dolu olduğunu görmesi için</td></tr>
+  <tr><td>Derslerinin tarih ve saatleri</td><td>Ortak takvimde dolu saatlerin görünmesi için</td></tr>
+  <tr><td>Salon adı ve salon kodu</td><td>Salona katılım için</td></tr>
+</table>
+<p><b>Öğrencilerinin adı, telefonu ya da başka hiçbir bilgisi gönderilmez.</b>
+Diğer antrenörler yalnızca "dolu" bir saat görür. Salon özelliğini hiç
+açmazsan bu bölümdeki hiçbir bilgi gönderilmez.</p>
 
-  <h2>6. Biyometrik veriler</h2>
-  <p>Parmak izi veya yüz tanıma doğrulaması telefonunuzun işletim sistemi tarafından yapılır. Uygulama yalnızca "doğrulandı" ya da "doğrulanmadı" bilgisini alır; biyometrik verilerinize erişmez, saklamaz.</p>
+<h3>Lisans kodu</h3>
+<p>Uygulamaya bir kod girdiğinde, kodun geçerli olup olmadığını kontrol etmek
+için kod ve anonim kullanıcı numaran sunucumuza gönderilir. Kod, kullanıldığı
+cihaza bağlanır.</p>
 
-  <h2>7. Kamera</h2>
-  <p>Kamera yalnızca salon QR kodunu okutmak istediğinizde açılır. Görüntü kaydedilmez, saklanmaz, hiçbir yere gönderilmez.</p>
+<h3>Arkadaşını getir (davet) — isteğe bağlı</h3>
+<p>"Davet kodumu al" dersen ya da bir arkadaşının kodunu girersen, anonim
+kullanıcı numaran ve davet kodu sunucumuza kaydedilir. Böylece kodunla kaç
+kişinin katıldığı sayılır ve arkadaşın abone olunca hediye ayın eklenir.
+Adın, telefonun ya da öğrencilerinle ilgili hiçbir bilgi gönderilmez.</p>
 
-  <h2>8. Reklam ve analiz</h2>
-  <p>Uygulamada reklam ağı, izleme çerezi, analiz aracı veya üçüncü taraf pazarlama yazılımı bulunmaz. Kullanım alışkanlıklarınız takip edilmez.</p>
+<h3>Bu bilgiler nerede tutulur</h3>
+<p>Salon ve lisans bilgileri, altyapı hizmeti aldığımız Supabase'in
+sunucularında, şifreli bağlantı (HTTPS) üzerinden iletilerek saklanır.
+Supabase bu bilgileri yalnızca bizim adımıza, hizmeti çalıştırmak için işler.</p>
 
-  <h2>9. Yedekleme</h2>
-  <p>Yedek dosyası oluşturduğunuzda veriler cihazınızda bir dosyaya yazılır. Bu dosyayı nereye kaydedeceğinize ve kiminle paylaşacağınıza siz karar verirsiniz; uygulama otomatik olarak hiçbir yere yüklemez.</p>
+<h2>4. Uygulamanın istediği izinler</h2>
+<ul>
+  <li><b>Kamera:</b> Yalnızca salon QR kodunu okutmak için. Görüntü kaydedilmez, gönderilmez.</li>
+  <li><b>Bildirimler:</b> Ders ve doğum günü hatırlatmaları için. Hatırlatmalar telefonunda planlanır, sunucuya bilgi gitmez.</li>
+  <li><b>Alarm ve hatırlatıcılar:</b> Hatırlatmaların zamanında gelmesi için.</li>
+  <li><b>Parmak izi / yüz tanıma:</b> Uygulama kilidini açmak için. Doğrulamayı telefonunun kendi sistemi yapar; parmak izi ya da yüz bilgisi uygulamaya veya bize ulaşmaz.</li>
+  <li><b>İnternet:</b> Yalnızca Salon, lisans kodu ve davet özelliği için.</li>
+  <li><b>Rehberden seç:</b> Uygulama rehber izni <b>istemez</b>. Telefonunun kendi kişi seçicisi açılır; yalnızca seçtiğin kişinin adı ve numarası forma yazılır. Rehberin okunmaz, bir yere gönderilmez.</li>
+  <li><b>Ana ekran widget'ı:</b> Bugünün ders saatleri ve öğrenci adları widget'ta gösterilmek için yine telefonunda saklanır.</li>
+</ul>
 
-  <h2>10. Haklarınız</h2>
-  <p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında verilerinize erişme, düzeltme ve silinmesini isteme haklarınız bulunmaktadır. Uygulama içindeki verileri dilediğiniz zaman kendiniz silebilir, uygulamayı kaldırarak tümünü ortadan kaldırabilirsiniz. Salon verileri için yukarıdaki e-posta adresine yazabilirsiniz.</p>
+<h2>5. Yedek dosyası</h2>
+<p>"Yedek al" ile oluşturduğun dosyayı sen oluşturur ve sen saklarsın; bize
+gönderilmez. Parola verirsen dosya AES-256 ile şifrelenir. Parolan hiçbir
+yerde saklanmaz; unutursan biz de dosyayı açamayız.</p>
 
-  <h2>11. Öğrenci bilgileri hakkında</h2>
-  <p>Uygulamaya öğrencilerinize ait bilgi girdiğinizde, bu veriler açısından veri sorumlusu siz olursunuz. Öğrencilerinizi bilgilendirmek ve gerekli izinleri almak sizin sorumluluğunuzdadır.</p>
+<h2>6. Reklam, analiz ve takip</h2>
+<p>Uygulamada reklam, kullanım analizi, çökme raporu ya da kullanıcı takibi
+yapan hiçbir araç yoktur. Bilgilerin satılmaz, kiralanmaz, paylaşılmaz.</p>
 
-  <h2>12. Çocuklar</h2>
-  <p>RepDay profesyonel antrenörlerin kullanımı için tasarlanmıştır, çocuklara yönelik değildir.</p>
+<h2>7. Ödemeler</h2>
+<p>Abonelik satın alımları Google Play ya da App Store üzerinden yapılır.
+Kart ve ödeme bilgilerin bu mağazalar tarafından işlenir; bu bilgilere
+erişimimiz yoktur.</p>
 
-  <h2>13. Değişiklikler</h2>
-  <p>Bu politika güncellenirse yeni sürüm bu sayfada yayımlanır ve üstteki tarih değiştirilir.</p>
+<h2>8. Bilgilerin silinmesi</h2>
+<ul>
+  <li>Telefonundaki bilgiler: uygulamanın içinden silebilir ya da uygulamayı kaldırarak tamamen silebilirsin.</li>
+  <li>Salon bilgileri: Ayarlar → <b>Salondan ayrıl</b> dediğinde sunucudaki ders saatlerin ve üyelik kaydın silinir.</li>
+  <li>Diğer her türlü silme talebi için aşağıdaki iletişim adresinden bize yazabilirsin.</li>
+</ul>
 
-  <footer>RepDay · By Likos</footer>
+<h2>9. Haklarınız (KVKK)</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında, sunucumuzda
+bulunan sana ait bilgilere erişme, düzeltilmesini ya da silinmesini isteme
+hakkın vardır. Talebini aşağıdaki iletişim kanalından iletebilirsin.</p>
+
+<h2>10. Yaş sınırı</h2>
+<p>RepDay antrenörler için tasarlanmıştır ve 18 yaş altındaki kişilere yönelik değildir.</p>
+
+<h2>11. Değişiklikler</h2>
+<p>Bu politika değişirse güncel hâli bu sayfada, yeni tarihiyle yayınlanır.</p>
+
+<h2>12. İletişim</h2>
+<p>Instagram: <a href="https://instagram.com/getrepday">@getrepday</a></p>
+
+<hr>
+
+<h1>RepDay Privacy Policy</h1>
+<p class="tarih">Last updated: 8 October 2026</p>
+
+<p>Student details you enter in RepDay (names, phone numbers, measurements,
+sessions, packages, payments) are stored <b>only on your device</b> and are
+never sent to us. No account is required. There are no ads, analytics or
+tracking tools.</p>
+
+<p><b>Optional Gym feature:</b> if you turn it on, an anonymous user ID, the
+display name and colour you choose, the dates and times of your sessions, and
+the gym name and code are sent to our server (hosted on Supabase) so trainers
+in the same gym can see each other's busy hours. No student information is
+ever sent. Leaving the gym (Settings → Leave gym) deletes this data.</p>
+
+<p><b>Invite a trainer (optional):</b> if you get an invite code or enter a
+friend's code, your anonymous user ID and the code are stored on our server
+to count invites and add your free month when a friend subscribes. No names,
+phone numbers or student data are sent.</p>
+
+<p><b>License codes:</b> when you enter a code, the code and your anonymous
+user ID are sent to our server to check it.</p>
+
+<p><b>Permissions:</b> camera (only to scan the gym QR code; images are not
+stored), notifications and alarms (reminders scheduled on the device),
+biometrics (handled by your phone's own system), internet (Gym feature and
+codes only). "Pick from contacts" uses your phone's own contact picker and
+needs no contacts permission: only the name and number you pick are filled
+in, nothing is uploaded. The home-screen widget reads today's sessions from
+the same on-device storage.</p>
+
+<p><b>Backups</b> are files you create and keep yourself; if you set a
+password they are encrypted with AES-256 and the password is never stored.</p>
+
+<p><b>Payments</b> are processed by Google Play or the App Store; we have no
+access to your payment details.</p>
+
+<p>RepDay is intended for trainers and is not directed at anyone under 18.
+For questions or deletion requests contact
+<a href="https://instagram.com/getrepday">@getrepday</a> on Instagram.</p>
+
 </main>
 </body>
 </html>
